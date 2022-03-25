@@ -1,0 +1,33 @@
+.header{
+    background-color: #1C2B35;
+}
+.container{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    cursor: pointer;
+}
+.menu ul{
+    display: flex;
+    justify-content: end;
+}
+.menu li{
+    list-style: none;
+    padding: 0 20px;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    border : 1px solid #1C2B35;
+    padding: 3px 10px;
+}
+.menu a:hover{
+    color: rgba(127, 255, 212, 0.835);
+    border: 1px solid rgba(0, 255, 255, 0.671);
+    border-radius: 4px;
+    box-shadow: 3px 8px 15px rgba(127, 255, 212, 0.904);
+}
